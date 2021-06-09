@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "U3_Practica2_BaseDatosFirebaseCloudFirestore"

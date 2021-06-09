@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#BE52FF"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nombre"
+        android:hint="NOMBRE"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/celular"
+        android:hint="CELULAR"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fecha"
+        android:hint="FECHA"
+        android:inputType="date" />
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Spinner
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="DESCRIPCION"
+        android:entries="@array/descripciones"/>
+
+        <Button
+            android:id="@+id/sale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#BE52FF"
+            android:text="Calcular" />
+
+        </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cantidad"
+        android:inputType="number"
+        android:hint="CANTIDAD"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/precio"
+        android:inputType="number"
+        android:focusable="false"
+
+        android:hint="PRECIO"/>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/total"
+        android:inputType="number"
+        android:focusable="false"
+        android:hint="TOTAL"/>
+
+    <Spinner
+        android:id="@+id/entregado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/entrega"
+        android:hint="ENTREGADO" />
+
+    <Button
+        android:id="@+id/inserta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="INSERTAR"
+        android:background="#FFF"/>
+
+    <ListView
+        android:id="@+id/todos"
+        android:layout_width="match_parent"
+        android:layout_height="152dp"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/subir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUBIR A LA NUBE"
+        android:layout_marginTop="10dp"
+        android:background="#EFF1F4"/>
+
+        <Button
+            android:id="@+id/salir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SALIR"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFF"
+            android:background="#00388C"/>
+
+</LinearLayout>

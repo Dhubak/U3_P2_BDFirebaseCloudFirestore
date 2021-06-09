@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">U3_Practica2_BaseDatosFirebaseCloudFirestore</string>
+    <array name="descripciones">
+        <item>ELIJA LA ORDEN...</item>
+        <item>Hamburguesa simple</item>
+        <item>Hamburguesa doble</item>
+        <item>Hamburguesa especial</item>
+        <item>CocaCola</item>
+        <item>Refresco de manzana</item>
+        <item>Jugo Jumex</item>
+    </array>
+    <array name="entrega">
+        <item>ENTREGADO...</item>
+        <item>Si</item>
+        <item>No</item>
+    </array>
+</resources>
